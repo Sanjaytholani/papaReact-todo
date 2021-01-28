@@ -75,7 +75,7 @@ const Todos = forwardRef(() => {
           {todos.map((todo, i) => (
             <div className="todo">
               {todo.complete === true ? (
-                <React.Fragment>
+                <div className="todo__complete">
                   <h3 className="todo__title--complete">{todo.text}</h3>
                   <IconButton
                     aria-label="add"
@@ -85,11 +85,11 @@ const Todos = forwardRef(() => {
                   >
                     <DeleteIcon />
                   </IconButton>
-                </React.Fragment>
+                </div>
               ) : (
                 <React.Fragment>
                   <h3 className="todo__title">{todo.text}</h3>
-                  <div className="todo__icons">
+                  <div className="todos__icons">
                     <IconButton
                       aria-label="add"
                       type="submit"
@@ -97,7 +97,6 @@ const Todos = forwardRef(() => {
                     >
                       <DoneIcon />
                     </IconButton>
-
                     <IconButton
                       aria-label="edit"
                       type="button"

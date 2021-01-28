@@ -19,7 +19,7 @@
   color: #1d1d1f;
 }
 .todos__list {
-  padding: 50px;
+  padding: 3rem;
   border-radius: 50px;
   background: #fdfdfd;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
@@ -42,6 +42,30 @@
   align-items: center;
   height: 2.5rem;
 }
+.todo__complete {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: row; */
+}
 .todo__title--complete {
   color: green;
+}
+@media only screen and (max-width: 600px) {
+  .todos__list {
+    width: 90%;
+  }
+  .todo {
+    flex-direction: column;
+    height: 3.5rem;
+  }
+
+  .todos__icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+  }
 }
