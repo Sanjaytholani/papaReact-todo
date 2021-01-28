@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/papaReact-todo/static/css/main.bf9c9acf.chunk.css",
-    "main.js": "/papaReact-todo/static/js/main.90af3277.chunk.js",
-    "main.js.map": "/papaReact-todo/static/js/main.90af3277.chunk.js.map",
+    "main.css": "/papaReact-todo/static/css/main.fc54ec8a.chunk.css",
+    "main.js": "/papaReact-todo/static/js/main.c9616161.chunk.js",
+    "main.js.map": "/papaReact-todo/static/js/main.c9616161.chunk.js.map",
     "runtime-main.js": "/papaReact-todo/static/js/runtime-main.a29f49ba.js",
     "runtime-main.js.map": "/papaReact-todo/static/js/runtime-main.a29f49ba.js.map",
     "static/js/2.4557c87a.chunk.js": "/papaReact-todo/static/js/2.4557c87a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.8f952433.chunk.js": "/papaReact-todo/static/js/3.8f952433.chunk.js",
     "static/js/3.8f952433.chunk.js.map": "/papaReact-todo/static/js/3.8f952433.chunk.js.map",
     "index.html": "/papaReact-todo/index.html",
-    "static/css/main.bf9c9acf.chunk.css.map": "/papaReact-todo/static/css/main.bf9c9acf.chunk.css.map",
+    "static/css/main.fc54ec8a.chunk.css.map": "/papaReact-todo/static/css/main.fc54ec8a.chunk.css.map",
     "static/js/2.4557c87a.chunk.js.LICENSE.txt": "/papaReact-todo/static/js/2.4557c87a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a29f49ba.js",
     "static/js/2.4557c87a.chunk.js",
-    "static/css/main.bf9c9acf.chunk.css",
-    "static/js/main.90af3277.chunk.js"
+    "static/css/main.fc54ec8a.chunk.css",
+    "static/js/main.c9616161.chunk.js"
   ]
 }
